@@ -2,7 +2,7 @@ module "vpc" {
     source  = "terraform-google-modules/network/google"
     version = "~> 3.0"
 
-    project_id   = "edmante"
+    project_id   = "p-rujlfpdyflq2-0"
     network_name = "gaurav-network"
     routing_mode = "GLOBAL"
 
